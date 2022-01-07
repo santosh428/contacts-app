@@ -1,0 +1,150 @@
+body{
+  background-color: aqua;
+}
+*{
+  margin: 0px;
+}
+.container{
+  height: auto;
+  width: 60%;
+  margin: 10px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+/* header section */
+.header{
+  text-align: center;
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 10px;
+  padding: 10px 0px;
+  color: indigo;
+  margin-bottom: 15px;
+}
+/* Main section */
+.main-form{
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 10px;
+  padding: 15px;
+}
+.main-form div{
+  width: 100%;
+  padding-right: 5px;
+}
+.main-form div form input{
+  width: 95%;
+  padding: 8px;
+  margin: 5px 0px;
+}
+.main-form div form button{
+  color:white;
+  background-color: blue;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+.main-form div form button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.1s ease;
+}
+
+/* contact--section */
+
+.contact-div{
+  margin: 15px 0px ;
+  /* border: 1px solid black; */
+  /* padding: 15px; */
+}
+.contact-div .contact-div-header{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.contact-div .contact-div-header button{
+  color:white;
+  background-color: blue;
+  font-weight: bold;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+.contact-div .contact-div-header button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.1s ease;
+}
+
+.contactlist{
+  display: flex;
+  box-shadow: 1px 1px 5px lightgray;
+  border-radius: 10px;
+  align-items: center;
+  /* margin-right: 20px; */
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.list-text{
+  flex: 1;}
+
+
+
+.list-icon {
+  font-size: 25px;
+
+}
+.fa-edit{color: green;}
+.fa-trash-alt{
+  color: red;
+  margin-left: 10px;
+}
+
+.fa-trash-alt,.fa-edit:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+  .list-icon {
+      font-size: 15px;
+  
+  }
+  .container{
+      width: 80%;
+  }
+}
+
+.specific-contact{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.contact-container{
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  color:blue;
+  margin-bottom: 10px;
+  
+
+}
+.specific-contact .linkdiv{
+  align-self: center;
+}
+.specific-contact button{
+  color:white;
+  background-color: blue;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 3px;
+
+}
+.specific-contact button:hover{
+  cursor: pointer;
+transform: scale(1.05);
+transition: all 0.1s ease;
+}
+
